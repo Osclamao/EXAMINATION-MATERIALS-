@@ -52,7 +52,7 @@ body {
 #xmark {
        color: white;
        Position: absolute;
-       Margin-left: 12px;
+       Margin-left: 6px;
        Margin-top: 14px;
        Display: none;
 }
