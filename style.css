@@ -49,6 +49,14 @@ body {
 	border-radius: 50%;
 }
 
+#xmark {
+       color: white;
+       Position: absolute;
+       Margin-left: 12px;
+       Margin-top: 14px;
+       Display: none;
+}
+
 #picss {
 	height: 40px;
 	width: 42px;
