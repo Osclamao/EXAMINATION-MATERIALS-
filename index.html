@@ -9,11 +9,11 @@
 </head>
 <body>
 <div class="nav-bar">
-	<i class="fa-solid fa-list" id="lists" onclick="sidebar()"></i>
-	<i class="fa-solid fa-xmark" id="xmark" onclick="closeSidebar()"></i>
-	<img src="tex.JPG" id="pics" onclick="closeSide()">
-	<img src="tex.JPG" id="picss" onclick="side()">
-	<img src="fuo.jpg" id="img">
+	<i class="fa-solid fa-list" id="lists" onclick="side()"></i>
+	<i class="fa-solid fa-xmark" id="xmark" onclick="closeSide()"></i>
+	<!--<img src="tex.JPG" id="pics" onclick="closeSide()">
+	<img src="tex.JPG" id="picss" onclick="side()">-->
+	<img src="fuo.JPG" id="img">
 	<span id="head">STUDY&nbsp;MATERIALS&nbsp;FOR (MECHATRONICS FIRST SIMESTER)</span>
 	<span class="fuo">FEDERAL UNIVERSITY OF OTUOKE</span>
 </div>
@@ -150,6 +150,10 @@
 			document.getElementById('picss').style.visibility = "hidden";
 
 			document.getElementById('pics').style.visibility = "visible";
+
+                        document.getElementById('xmark').style.display = "block";
+
+                        document.getElementById('lists').style.display = "none";
 		}
 
 		function closeSide() {
@@ -158,7 +162,11 @@
 			document.getElementById('picss').style.visibility = "visible";
 
 			document.getElementById('pics').style.visibility = "hidden";
-		}79792251
+
+                        document.getElementById('xmark').style.display = "none";
+
+                        document.getElementById('lists').style.display = "block";
+		}
 	</script>
 </body>
 </html>
