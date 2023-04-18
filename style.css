@@ -54,7 +54,7 @@ body {
        Position: absolute;
        Margin-left: 6px;
        Margin-top: 14px;
-       Display: none;
+       Display: block;
 }
 
 #picss {
