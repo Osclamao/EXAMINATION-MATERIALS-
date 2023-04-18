@@ -52,9 +52,9 @@ body {
 #xmark {
        color: white;
        Position: absolute;
-       Margin-left: 6px;
-       Margin-top: 14px;
-       Display: block;
+       Margin-left: 12px;
+       Margin-top: 24px;
+       Display: none;
 }
 
 #picss {
