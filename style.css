@@ -52,9 +52,9 @@ body {
 #xmark {
        color: white;
        Position: absolute;
-       Margin-left: 12px;
-       Margin-top: 24px;
-       Visibility: hidden;
+       Margin-left: 14px;
+       Margin-top: 12px;
+       display: none;
 }
 
 #picss {
@@ -197,7 +197,7 @@ sup {
 	.pic {
 		position: absolute;
 		margin-left: 0px;
-		margin-top: 30px;
+		margin-top: 20px;
 		height: 70px;
 		width: 70px;
 	}
