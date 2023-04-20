@@ -11,8 +11,6 @@
 <div class="nav-bar">
 	<i class="fa-solid fa-list" id="lists" onclick="side()"></i>
 	<i class="fa-solid fa-xmark" id="xmark" onclick="closeSide()"></i>
-	<!--<img src="tex.JPG" id="pics" onclick="closeSide()">
-	<img src="tex.JPG" id="picss" onclick="side()">-->
 	<img src="fuo.JPG" id="img">
 	<span id="head">STUDY&nbsp;MATERIALS&nbsp;FOR (MECHATRONICS FIRST SIMESTER)</span>
 	<span class="fuo">FEDERAL UNIVERSITY OF OTUOKE</span>
@@ -136,7 +134,7 @@
 		<tr>
 			<th></th>
 			<td>TOTAL FEE</td>
-			<td>N53'600</td>
+			<td>53'600</td>
 		</tr>
 	</table>
 	</div>
@@ -147,27 +145,14 @@
 		function side() {
 			document.getElementById('side-panel').style.visibility = "visible";
 
-			document.getElementById('picss').style.visibility = "hidden";
-
-			document.getElementById('pics').style.visibility = "visible";
-
-                        document.getElementById('lists').style.visibility = "hidden";
-
-                        document.getElementById('xmark').style.visibility = "visible";
-
+                        document.getElementById('lists').style.display = "none";
                    
 		}
 
 		function closeSide() {
 			document.getElementById('side-panel').style.visibility = "hidden";
 
-			document.getElementById('picss').style.visibility = "visible";
-
-			document.getElementById('pics').style.visibility = "hidden";
-
-                        document.getElementById('xmark').style.visibility = "hidden";
-
-                        document.getElementById('lists').style.visibility = "visible";
+                        document.getElementById('lists').style.display = "block";
 		}
 	</script>
 </body>
